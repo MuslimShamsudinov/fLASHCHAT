@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "372211948363",
+    "project_id": "chat-2-bcc87",
+    "storage_bucket": "chat-2-bcc87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372211948363:android:87fa6912fe56405f8aa6ce",
+        "android_client_info": {
+          "package_name": "com.example.muslim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372211948363-s0nd7t888kl1f8c2lt4ujbi2kn4md575.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-MztGeU0N-d_vHs3MADXFXgHR2upEtmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372211948363-s0nd7t888kl1f8c2lt4ujbi2kn4md575.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
