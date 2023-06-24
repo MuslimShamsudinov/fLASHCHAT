@@ -28,16 +28,13 @@ class HomePage extends StatelessWidget {
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       initialRoute: IntroductionScreen.route,
-     routes:{
-    RegisterScreen.route:(context) =>RegisterScreen(),
-       HomeScreen.route :(context) =>HomeScreen(),
-       LoginScreen.route :(context) =>LoginScreen(),
-     IntroductionScreen.route :(context) =>IntroductionScreen(),
-      
-
-         },
-
-      home:  LoginScreen(),
+      routes: {
+        RegisterScreen.route: (context) => RegisterScreen(),
+    Homescreen.route: (context) =>Homescreen(),
+        LoginScreen.route: (context) => LoginScreen(),
+        IntroductionScreen.route: (context) => IntroductionScreen(),
+      },
+      home: LoginScreen(),
     );
   }
 }

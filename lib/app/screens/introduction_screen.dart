@@ -44,11 +44,11 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text(
+                 Text(
                   '',
                   style: TextStyle(fontSize: 40),
                 ),
-                const SizedBox(
+                SizedBox(
                   width: 20,
                 )
               ],
@@ -58,7 +58,7 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
               height: 40,
             ),
             RegisterButton(
-              onTap: () => Navigator.pushNamed(context, HomeScreen.route),
+              onTap: () => Navigator.pushNamed(context, LoginScreen.route),
               color: cLoginColor,
               title: 'Login',
             ),

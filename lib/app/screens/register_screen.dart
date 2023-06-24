@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -9,11 +7,12 @@ import 'package:muslim/app/resources/buttons/my_textfield.dart';
 import 'package:muslim/app/resources/buttons/register_button.dart';
 import 'package:muslim/app/resources/buttons/textfield_helper/my_textfield.dart';
 import 'package:muslim/app/screens/home_screen.dart';
+
 import 'package:muslim/app/screens/login_screen.dart';
 
 class RegisterScreen extends StatefulWidget {
   RegisterScreen({Key? key}) : super(key: key);
-      static const String route = '';
+  static const String route = 'register';
 
   @override
   _RegisterScreen createState() => _RegisterScreen();
@@ -111,8 +110,7 @@ class _RegisterScreen extends State<RegisterScreen> {
                 color: Colors.grey[900],
                 onTap: () {
                   signUp();
-                  // Navigator.push(context,
-                  //     MaterialPageRoute(builder: (context) => HomeScreen()));
+                  Navigator.pushNamed(context,Homescreen.route);
                 }),
 
             cSizedBox20,
@@ -129,3 +127,4 @@ class _RegisterScreen extends State<RegisterScreen> {
     );
   }
 }
+// Create a Form widget.
